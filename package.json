@@ -8,8 +8,8 @@
     "url": "https://github.com/helloworld"
   },
   "homepage": "https://github.com/helloworld#readme",
-  "main": "dist/helloworld.js",
-  "module": "dist/helloworld.esm.js",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
   "sideEffects": false,
   "files": [
     "types/*.d.ts"

@@ -5,7 +5,7 @@ module.exports = [
   {
     input: "src/index.js",
     output: {
-      file: "dist/File.esm.js",
+      file: "dist/index.esm.js",
       exports: "named",
       format: "es",
       globals: {}
@@ -16,10 +16,10 @@ module.exports = [
   {
     input: "src/index.js",
     output: {
-      file: "dist/File.js",
+      file: "dist/index.js",
       format: "umd",
       exports: "named",
-      name: "Name",
+      name: "index",
       globals: {}
     },
     plugins: [buble(), alias({})],
